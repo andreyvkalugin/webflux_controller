@@ -1,6 +1,6 @@
 FROM openjdk:17-jdk-slim
 
-COPY *.jar app.jar
+COPY target/*.jar app.jar
 
 ENV PORT 8083
 EXPOSE $PORT
